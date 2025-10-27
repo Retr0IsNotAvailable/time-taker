@@ -1,0 +1,26 @@
+#time-taker-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.4rem;
+}
+
+#subject-taker,
+#time-taker {
+  padding: 0.2rem;
+  outline: none;
+  border-radius: 0.15rem;
+  border: 1px solid #000;
+  width: 40%;
+}
+
+#header-dropdown {
+  transform: rotate(180deg);
+  height: 1rem;
+  margin: auto 0;
+  margin-left: -1.75rem;
+}
+
+#time-taker {
+  max-width: 3rem;
+}

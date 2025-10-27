@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #C69C6D, #754224);
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+#container {
+  background: #fff;
+  color: #000;
+  padding: 0.7rem;
+  border-radius: 0.25rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 0.8rem 0;
+  border: 0.5px solid #000;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}

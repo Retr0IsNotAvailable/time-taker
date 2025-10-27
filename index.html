@@ -7,9 +7,30 @@
     <meta name="description" content="Time Taker"/>
 
     <link href="./styles/general.css" rel="stylesheet"/>
+    <link href="./styles/study-time-taker-header.css" rel="stylesheet"/>
   </head>
 
   <body>
+    <div id="container">
+      <h2>Time Taker 
+        <span class="ttss">TTS: <time>2:25</time></span>
+      </h2>
+      <hr/>
+
+      <div id="study-time-taker">
+        <div id="time-taker-header">
+          <input id="subject-taker" type="text" placeholder="Subject..."/>
+          <button id="header-dropdown">&#8679;</button>
+          <input id="time-taker" type="number"
+           min="0" max="60" placeholder="25"/>
+        </div>
+        <hr/>
+
+        <div id="time-taker-body">
+
+        </div>
+      </div>
+    </div>
 
     <script type="module" src="./scripts/script.js"></script>
   </body>
