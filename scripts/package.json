@@ -1,0 +1,23 @@
+{
+  "name": "time-taker-npm",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Retr0IsNotAvailable/time-taker#readme",
+  "bugs": {
+    "url": "https://github.com/Retr0IsNotAvailable/time-taker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Retr0IsNotAvailable/time-taker.git"
+  },
+  "license": "ISC",
+  "author": "hellounique",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "html2pdf.js": "^0.12.1"
+  }
+}
